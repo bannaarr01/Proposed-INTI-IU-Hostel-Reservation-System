@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="hrsys-Web.config Connection String" description="hrsys Connection String used in web.config by the application to access the database." defaultValue="Data Source=sql5057.site4now.net;Persist Security Info=True;User ID=DB_A689E4_hrsys_admin;Password=Manutdmanutd01;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\Mac\\Home\\Documents\\Visual\ Studio\ 2017\\HRS\\HRS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='hrsys']/@connectionString" />
+  </parameter>
+</parameters>

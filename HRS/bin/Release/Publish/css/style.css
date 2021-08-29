@@ -1,0 +1,168 @@
+body{
+    overflow-x: hidden; /* The Horizontal Axis*/
+}
+.navbar .nav-link {
+font-size: 14px;
+text-transform: uppercase;
+padding-left: 1rem !important;
+padding-right: 1rem !important;
+font-weight: bolder;
+}
+nav{
+
+    border-bottom: #ad4102 3px solid;
+}
+.navbar .nav-item.active {
+  
+    border-left: #444 3px solid;
+   
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+
+.carousel-image-1 {
+    background: url('../img/inti.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 650px;
+    background-attachment: fixed;
+}
+
+
+.carousel-image-2 {
+    background: url('../img/inti5.png');
+    background-size: cover;
+    background-position: 0 750px;
+    background-attachment: fixed;
+    
+}
+
+
+
+.carousel-image-3 {
+    background: url('../img/inti3.png');
+    background-size: cover;
+    background-position: 0 870px;
+    background-attachment: fixed;
+  
+}
+
+
+@media(max-width: 768px){
+.carousel .display-3{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.carousel p {
+    font-size: 10px;
+    font-family: inherit;
+}
+}
+
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/nightt.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+} 
+
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.dark-overlaysec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/map2.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 20px;
+    text-align: center;
+    color: #fff;
+}
+#video-play a {
+    color: #fff;
+}
+
+
+#pjjjage-header {
+    height:200px;
+    background: url('../img/phone3.jpg');
+    background-position: 0 -120px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+.about-img {
+    margin-top: -10px;
+}
+
+#page-headerSec {
+    height:250px;
+    background: url('');
+    background-position: 0 -120px;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+
+#faq .card{
+border: #333;
+
+}
+
+#faq a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#faq .card-body, 
+#faq .card-header {
+    background: #333;
+}
+
+#main-footer {
+    background: #fff;
+    color: #000;
+}
+
+#page-headerThr {
+    height:200px;
+    background-position: 0 750px;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#about .fas {
+    background: #ae1032;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}

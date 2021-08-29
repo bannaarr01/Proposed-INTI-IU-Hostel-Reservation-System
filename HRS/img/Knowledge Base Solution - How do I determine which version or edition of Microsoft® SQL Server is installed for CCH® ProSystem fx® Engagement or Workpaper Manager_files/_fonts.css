@@ -1,0 +1,68 @@
+@font-face {
+	font-family: 'Bliss';
+	src: url('../fonts/bliss/Bliss2-Light.eot');
+	src: url('../fonts/bliss/Bliss2-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bliss/Bliss2-Light.woff') format('woff'),
+		url('../fonts/bliss/Bliss2-Light.ttf')  format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bliss';
+	src: url('../fonts/bliss/Bliss2-Medium.eot');
+	src: url('../fonts/bliss/Bliss2-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bliss/Bliss2-Medium.woff') format('woff'),
+		url('../fonts/bliss/Bliss2-Medium.ttf')  format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bliss';
+	src: url('../fonts/bliss/Bliss2-Bold.eot');
+	src: url('../fonts/bliss/Bliss2-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bliss/Bliss2-Bold.woff') format('woff'),
+		url('../fonts/bliss/Bliss2-Bold.ttf')  format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bliss';
+	src: url('../fonts/bliss/Bliss2-ExtraBold.eot');
+	src: url('../fonts/bliss/Bliss2-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/bliss/Bliss2-ExtraBold.woff') format('woff'),
+		url('../fonts/bliss/Bliss2-ExtraBold.ttf')  format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/Fira Sans/FiraSans-Light.otf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/Fira Sans/FiraSans-Light.otf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/Fira Sans/FiraSans-Book.otf');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fira Sans';
+	src: url('../fonts/Fira Sans/FiraSans-Medium.otf');
+	font-weight: 900;
+	font-style: normal;
+}

@@ -1,0 +1,465 @@
+
+#iwantto {
+	float: right;
+	margin:10px 0px 0px 0px;
+    height: 40px;
+    color: #007ac3;
+    padding-left: 10px;
+}
+
+select option {
+    padding:10px;
+}
+
+#iwantto button {
+	height: 40px; 
+    width:150px;
+	border:0;
+	margin:0;
+	text-align: left;
+	color: #007ac3;
+    font-size: 20px;
+    background-image: none;
+    background-color: white;
+}
+
+
+#iwantto .dropdown-menu {
+	border:0;
+	width:215px;
+}
+
+#iwantto .dropdown-menu li { 
+	margin:0;
+	padding:0;
+	display: block;
+	width: 100%; height: auto;
+}
+
+#iwantto .dropdown-menu li a { 
+	font-size:1rem;
+	padding:15px 10px;
+	height: auto;
+	line-height: 1em;
+	font-weight: 400;
+	display: block;
+	color:#333;
+	margin:0;
+}
+
+.menubar input#search {
+    font-size: 24px;
+    color: #007ac3;
+}
+
+.menubar input#search::-webkit-input-placeholder  {
+    font-size: 24px;
+    color: #007ac3;
+    line-height:2;
+}
+
+.menubar input#search:-ms-input-placeholder  {
+    font-size: 24px;
+    color: #007ac3;
+    line-height:2;
+}
+
+#iwantto, #iwantto option {
+    font-size: 20px;
+}
+
+#iwantto option:hover, #iwantto option:checked, #iwantto option:focus { 
+	background-color: #007ac3;
+    color: white;
+}
+
+.navbar form input[type='text'], .navbar form input[type='password'] {
+    height: 35px;
+}
+
+.navbar form input[type='text'], .navbar form input[type='password'], .navbar form textarea {
+    border: 1px solid #d0d0d0;
+    line-height: 35px;
+    padding: 0 15px;
+    outline: none;
+    background: white;
+    width: 100%;
+}
+
+.navbar form label {
+    font-size: 14px;
+    line-height: 1em;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.navbar form button:hover, .navbar form input[type='submit']:hover {
+    color: white;
+    background: #006499;
+}
+
+.navbar form button, .navbar form input[type='submit'] {
+    display: block;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background: #007ac3;
+    color: white;
+}
+
+#siLoginRemember {
+    position: relative;
+    top: 3px;
+}
+
+/* I Want To megamenu styles*/
+
+li.i-want-to ul.tier-2 {
+	padding:35px 20px;
+	height: auto;
+}
+
+li.i-want-to ul.tier-2 li {
+	display: block;
+	float:left;
+	height: auto!important;
+}
+
+li.i-want-to ul.tier-2 li.general-actions {
+	width:30%;
+    margin-right: 3%;
+}
+
+li.i-want-to ul.tier-2 li.account-management {
+	width:66%;
+}
+
+li.i-want-to ul.tier-2 li h3 {
+	font-size:1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+li.i-want-to ul.tier-3 li {
+	height: auto!important;
+	line-height: 1em!important;
+	padding:0 0 10px 0 !important;
+	float:none;
+	font-weight: 100;
+}
+
+li.i-want-to ul.tier-3 li a {
+	height: 1em !important;
+	line-height: 1em !important;
+	padding:0 !important;
+	display: inline;
+}
+
+li.i-want-to ul.tier-2 li.account-management ul.tier-3 li {
+	width:47%;
+	margin-right:3%;
+	float: left;
+}
+
+ul.tier-2 li h3 {
+    font-size: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+li h3 {
+    color: white;
+    margin-bottom: 1em;
+}
+
+ul.tier-2 li.my-account {
+	width:70%;
+    padding: 15px 20px;
+    display: block;
+    float: left;
+    height: auto!important;
+    cursor:pointer;
+}
+
+.menubar ul li.my-account h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+li.my-account ul.tier-3 li {
+    height: auto!important;
+    line-height: 1em!important;
+    width: 47%;
+    margin-right: 3%;
+    float: left;
+}
+
+li.my-account ul.tier-3 li a{
+    height: 30px;
+    line-height: 30px;
+    padding: 0 !important;
+    display: inline;
+}
+
+.i-want-to li h3 {
+    color: white;
+    margin-bottom: 1em;
+}
+
+/*end I Want To megamenu*/
+
+.errorHeader {
+    color: #6AABD9;
+    font-weight: bold;
+}
+
+.warningHeader {
+    color: darkorange;
+}
+
+.accountSelectionWrapper {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.modal-content {
+    margin: auto;
+    border-radius: 0;
+}
+
+.modal-dialog {
+    width: 700px;
+    position: static;
+}
+
+#menubar-wrapper {
+	position: relative;
+	margin-bottom:10px;
+	width: 100%;
+}
+
+#menubar-wrapper nav {
+	background:#00619C;
+}
+
+.menubar {
+	/*background:#0081c6;*/
+	height: 48px;
+	width:100%;
+}
+
+.menubar ul {
+	margin:0; padding:0;
+	list-style: none;
+}
+
+.menubar ul li {
+	display: block;
+	float: left;
+	height: 48px;		
+	margin:0; padding:0;
+	font-size:18px;
+	font-weight: 300;
+	line-height: 48px;
+}
+
+.menubar ul li a, .menubar ul li .menuParent {
+	color:white;
+	display: block;
+	height: 48px; width:100%;
+	line-height: 48px;
+	padding: 0 20px;
+	text-decoration: none;
+    cursor:pointer;
+}
+
+.menubar ul.tier-1 {
+	position: relative;
+}
+
+.menubar ul.tier-1 > li {
+	margin:0;
+}
+
+.menubar ul.tier-1 > li span.menuParent {
+	cursor: default;
+}
+
+.menubar ul.tier-1 > li:hover {
+	background: #007AC3; 
+}
+
+.menubar.hide-subnav {
+	height: 48px;
+	margin-bottom:90px;
+	overflow: hidden;
+}
+
+.menubar.no-subnav {
+	height: 48px;
+	margin-bottom:0;
+}
+
+/*
+.menubar .no-tab.active {
+	height: 48px;
+}
+
+.menubar ul.tier-1 > li + li.no-tab.active {
+}
+
+.menubar .no-tab.active .menuParent {
+	color:white!important;
+}
+
+.menubar ul.tier-1 > li.no-tab:hover {
+	height: 48px;
+}
+
+.menubar ul.tier-1 > li.no-tab:hover > .menuParent {
+	color:white;
+}
+*/
+
+.menubar ul.tier-1 > li.active.shy {
+	background:transparent;
+}
+.menubar ul.tier-1 > li.active.shy > .menuParent {
+	color:white;
+}
+
+.menubar ul.tier-1 > li.active > .menuParent, 
+.menubar ul.tier-1 > li:hover > .menuParent {
+	color:white;
+}
+
+.menubar ul.tier-1 > li > .menuParent {
+	line-height: 48px;
+	height: 48px;
+}
+
+.menubar ul.tier-2 li {
+	font-size:18px;
+	font-weight: 300;
+}
+
+.menubar ul.tier-2 li a {
+	color:white;
+}
+
+.menubar ul.tier-2 li a:hover, .menubar ul.tier-2 li.currentPage a {
+}
+
+
+.menubar ul.tier-1 > li.active ul.tier-2 {
+	display: block;
+	z-index: 10000;
+}
+
+.menubar ul.tier-1 > li:hover ul.tier-2 {
+    visibility: visible;
+    opacity: 1;
+    z-index: 10000;
+}
+
+.menubar ul.tier-2 {
+    visibility: hidden;
+    opacity: 0;
+    z-index:0;
+    transition: visibility 0.25s, opacity 0.25s, z-index 0.25s;
+    -webkit-transition-delay: 500ms; /* Safari */
+    transition-delay: 500ms;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 48px;
+    background: #007AC3;
+    padding: 20px 0;
+}
+
+.menubar form {
+	height: 40px; width:300px;
+	position: relative;
+	float: right;
+	margin:10px;
+}
+
+.menubar form input[type='text']{
+	height: 40px!important;
+}
+
+.menubar form button {
+	position: absolute;
+	top:5px; right:5px;
+	margin:0!important;
+	width:90px!important; height:30px;
+	text-align: center;
+	color:white;
+	background:#85BC20!important; /* WK Green */
+	height: 30px;
+	line-height: 30px;
+	border:0; outline:none;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding:0;
+	display: inline-block!important;
+}
+
+.menubar form button:hover {
+	color:white;
+	background:#63aa2c!important;
+}
+
+.menubar form input {
+	padding-right:100px;
+	min-width: 300px;
+	width:100%;
+	display: block;
+	position: absolute;
+	top:0; right:0;
+	border:0; outline:none;
+}
+
+.i-want-to li h3 {
+	color:white;
+	margin-bottom:1em;
+} 
+
+.menubar .division {
+	background:#85BC20;
+	display: inline-block;
+	float: right;
+	padding:0 64px;
+}
+
+.menubar .division h2 {
+	height: 48px;
+	line-height: 48px;
+	font-size:18px;
+	font-weight: 300;
+	color:white;
+}
+
+
+#Home {
+    /*float: left;*/
+    display:inline-block;
+}
+
+#NavTrail {
+    /*float: left;*/
+    display:inline-block;
+}
+
+#NavTrail span {
+    color: #414141;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.menubar ul li a:hover {
+    text-decoration: underline;
+}
